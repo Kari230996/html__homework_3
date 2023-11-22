@@ -1,0 +1,88 @@
+.home´page {
+   width: 300px;
+}
+
+.header {
+    margin-left: 200px;
+}
+
+a {
+    
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+
+}
+
+h1 {
+
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+p {
+    size: 20px;
+    line-height: 23.44px;
+    color: #888888;
+}
+
+.text {
+
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+button {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    color: #FFFFFF;
+    border-color: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 89, 34, 0.42);
+
+   
+
+
+
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    width: 1289px;
+    height: 114px;
+    padding: 20px;
+
+}
+
+.rectangle10 {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 1274px;
+    height: 536px;
+
+
+}
+
+.rectangle11 {
+    width: 589px;
+    height: 494px;
+
+}
+
+.footer {
+    padding: 40px;
+
+}
+
