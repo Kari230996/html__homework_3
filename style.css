@@ -1,29 +1,50 @@
+
+body {
+    margin: 0;
+}
+
 .home´page {
    width: 300px;
 }
 
 .header {
-    margin-left: 200px;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    
+
+
+
+
 }
 
-a {
-    
+.header a {
+    color: #333;
+    font-family: Gilroy-Medium;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0em;
-    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 32px;
+    
+    
 
 
 
 }
 
 h1 {
-
+    font-family: Gilroy-Bold;
     font-size: 60px;
     line-height: 70px;
     letter-spacing: 0em;
     text-align: left;
     
+
+
 }
 
 p {
@@ -38,6 +59,9 @@ p {
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
+    font-family: Gilroy-Medium;
+
+
 
 }
 
@@ -49,19 +73,34 @@ button {
     color: #FFFFFF;
     border-color: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 89, 34, 0.42);
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    
 
-   
 
 
+}
+
+.watch-now{
+    margin-right: 296px;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
 
 .top {
     display: flex;
     align-items: center;
-    width: 1289px;
+    width: 1170px;
+    margin: 0 auto;
     height: 114px;
     padding: 20px;
+    justify-content: space-between;
 
 }
 
@@ -69,8 +108,8 @@ button {
     padding: 20px;
     display: flex;
     align-items: center;
-    width: 1274px;
-    height: 536px;
+    width: 1170px;
+    margin: 0 auto;
 
 
 }
@@ -81,8 +120,31 @@ button {
 
 }
 
+.rectangle12 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer {
-    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1170px;
+    height: 243px;
+
+    margin: 0 auto;
+
+
 
 }
 
+.footer-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img img {
+    margin: 20px;
+}
